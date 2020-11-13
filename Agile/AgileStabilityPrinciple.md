@@ -21,11 +21,11 @@ Think how a dev manager will feel about trusting a dev team if that dev team is 
 
 The difficulty is that ensuring our software works is hard and takes time, discipline, and an intense focus on detail.  Let’s drive this point home a little further with some math.  Assume you are on a development team with 4 other team members (total 5 developers).  There are 5 other teams just like yours all contributing to the same dev environment.  You thinking you are doing great because the last interruption in the dev environment you caused was last month and it was fixed within 2 hours.  Well, guess what…  assuming all other devs are just as awesome as you are the dev environment will be offline more than 10 hours per week with this track record.  Here is the math.
 
-Let i = # of hours per “MONTH” that I cause a partial or complete outage in the system.  “i” is for interruption.
-Let m = # of dev team members (cross team) contributing to a single system.  “m” is for dev team members
-Let d = # hours per “WEEK” the system is partially or completely down.  “d” is for down.
+    Let i = # of hours per “MONTH” that I cause a partial or complete outage in the system.  “i” is for interruption.
+    Let m = # of dev team members (cross team) contributing to a single system.  “m” is for dev team members
+    Let d = # hours per “WEEK” the system is partially or completely down.  “d” is for down.
 
-Thus,
+    Thus,
 
     d = 40 * (1 - (1 – i / (40 * 52 / 12)) ^ m)
 
@@ -41,5 +41,6 @@ Now, let’s flip this on it’s head and solve for “i” so we can figure out
     d = 4 hours down per week
     m = 25 dev team members (5 members per team x 5 teams)
 
-i = 0.73 hours per month of interruption
+    i = 0.73 hours per month of interruption
+    
 So what should we do in the face of this harsh reality.  I propose some timeless truths.  We MUST test, test, test our software.  Unit and integration tests with preferences for TDD where appropriate really shouldn’t be considered optional.  Improving software design through refactors or upgrading technologies is great and should be done but always understand that you are asking for you manager to take a risk.  Don’t let them and ultimately your customer down.  Don’t teach them that they can’t trust a dev team to make decisions….your teams agility depends on your success.
