@@ -20,3 +20,6 @@ I thought of you when I read this quote from "Clean Agile: Back to Basics (Rober
 "Pairing is a form of code review, but with a significant advantage. The pairing programmers are co-authors during the time they are pairing. They see older code and review it as a matter of course, but with the intention of authoring new code. Thus, the review is not simply a static check to ensure that the team’s coding standards are applied. Rather, it is a dynamic review of the current state of the code with an eye to where the code needs to be in the near future."
 
 Start reading this book for free: https://a.co/52ExH2L
+
+Promotes collective ownership of the code instead of "this is Jeff's code"
+
