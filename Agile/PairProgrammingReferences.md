@@ -25,3 +25,12 @@ Promotes collective ownership of the code instead of "this is Jeff's code"
 
 Fastest way to get a new developer up to speed.
 
+Expected Benefits
+increased code quality: “programming out loud” leads to clearer articulation of the complexities and hidden details in coding tasks, reducing the risk of error or going down blind alleys
+better diffusion of knowledge among the team, in particular when a developer unfamiliar with a component is pairing with one who knows it much better
+better transfer of skills, as junior developers pick up micro-techniques or broader skills from more experienced team members
+large reduction in coordination efforts, since there are N/2 pairs to coordinate instead of N individual developers
+improved resiliency of a pair to interruptions, compared to an individual developer: when one member of the pair must attend to an external prompt, the other can remains focused on the task and can assist in regaining focus afterwards
+
+
+https://www.agilealliance.org/glossary/pairing/#q=~(infinite~false~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'pair*20programming))~searchTerm~'~sort~false~sortDirection~'asc~page~1)
