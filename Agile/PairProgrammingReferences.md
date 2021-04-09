@@ -23,3 +23,5 @@ Start reading this book for free: https://a.co/52ExH2L
 
 Promotes collective ownership of the code instead of "this is Jeff's code"
 
+Fastest way to get a new developer up to speed.
+
