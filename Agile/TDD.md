@@ -5,9 +5,12 @@
 
 TDD was considered critical to agile software development at its inception (XP).
 Benifits:
-1. You only code what's needed
-2. More modular design (adhearance to SOLID)
-3. Easier to maintain, refactor, etc.
-4. Tests serve as code documentation
-5. Less debugging
-6. Faster feedback / iterations
+1. Dramatically reduce defects / bugs
+2. Improved predictability of team
+3. You only code what's needed
+4. More modular design (adhearance to SOLID)
+5. Easier to maintain, refactor, etc.
+6. Tests serve as code documentation
+7. Less debugging
+8. Faster feedback to developer
+9. Overall, long term reduces time (reduces bug diagnosis at later stages in development, reduces production defects, etc.)
