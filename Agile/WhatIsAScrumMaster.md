@@ -12,4 +12,4 @@ The responsibilities of this role include:
 - Ensuring a good relationship between the team and product owner as well as others outside the team
 - Protecting the team from outside interruptions and distractions.
 
-https://www.agilealliance.org/glossary/scrum-master/#q=~(infinite~false~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'scrum*20master))~searchTerm~'~sort~false~sortDirection~'asc~page~1)
+https://www.agilealliance.org/glossary/scrum-master
