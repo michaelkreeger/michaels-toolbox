@@ -1,0 +1,2 @@
+Hyrum's Law: It's Murphy's Law for APIs
+With a sufficient number of users of an API, it does not matter what you promise in the contract: all observable behaviors of your system will be depended on by somebody.
