@@ -1,0 +1,1 @@
+https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052/ref=asc_df_0131177052?tag=bingshoppinga-20&linkCode=df0&hvadid=80264404157555&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=&hvtargid=pla-4583863980133586&psc=1
