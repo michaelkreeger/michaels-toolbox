@@ -1,0 +1,1 @@
+Design docs are not required for agile teams.  This isn’t to say that they aren’t valuable or needed.  The team is empowered to decide when, where, and how they want to document their design decisions.  A design document is simply a form of communication.  Communication either to our future selves or others.
