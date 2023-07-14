@@ -4,3 +4,4 @@
 4. What is your experience with instilling XP disciplines within a team?
 5. How have you used data to help improve teams and outcomes?
 6. What disciplines do you follow to manage your day?
+7. How have you invested in your leadership & management skills?
