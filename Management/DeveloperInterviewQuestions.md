@@ -4,6 +4,6 @@
 4. Describe your ideal SDLC?
 5. How has the advent of the cloud shifted technical practices within teams?
 6. What is your familiarity with DDD?
-7. What branching strategies have you used and what do you recommend as a best practice?
+7. What branching strategies have you used and what do you recommend as a best practice? (TBD, GitFlow, etc.)
 8. Can you provide some examples of how you performance tuned an enterprise system in the past.
    
