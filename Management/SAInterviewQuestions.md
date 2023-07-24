@@ -6,3 +6,4 @@ Solution Architect Interview Questions
 4)	Building relationships is critical to the success of our teams.  Tell me about some approaches you have used to build relationships and what techniques did you use build relationships
 5)	Facilitating conversations is a critical skill to ensuring we are able to achieve the support of those involved.  Tell me about some times when you have facilitated a conversation and what techniques did you use to effectively facilitate the meeting?
 6)	Adapting to adversity and learning from our mistakes are critical skills for our SA’s.  Tell me about the last time you caused a failure and what you learned from that experience.  
+7)  How do you choose between Microservices and Monolithic architecture.
