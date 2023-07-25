@@ -6,4 +6,4 @@
 6. What is your familiarity with DDD?
 7. What branching strategies have you used and what do you recommend as a best practice? (TBD, GitFlow, etc.)
 8. Can you provide some examples of how you performance tuned an enterprise system in the past.
-   What are things you do to stay current on emerging trends and technology?
+9. What are things you do to stay current on emerging trends and technology?
