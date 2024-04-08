@@ -10,4 +10,5 @@
 10. Building high performing teams is a critical part of our job.  Tell me about a time you built a high performing team.
 11. Supporting the growth of talent is a critical part of how we ensure retention and growth for top performers, tell me about a time you supported the growth of an engineer under your direct management.
 12. Getting things done requires influencing others to align on a plan.  Can you provide an example of when you created a plan and then used influence to align others to that plan?
+13. As a manager you will may need to manage poor performing team members.  Can you share a story with how you managed a poor performing team member.
 
