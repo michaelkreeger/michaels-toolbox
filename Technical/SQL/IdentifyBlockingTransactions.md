@@ -29,5 +29,18 @@ SELECT * FROM sys.dm_exec_requests
 WHERE blocking_session_id <> 0 or 
       session_id in (select BlkBy from #spWho2)
 
+SELECT
+    l.request_session_id AS SPID,
+    l.resource_type,
+    l.resource_database_id,
+    l.resource_associated_entity_id AS ResourceID,
+    l.request_mode AS LockMode,
+    l.request_status,
+    OBJECT_NAME(l.resource_associated_entity_id) AS LockedObjectName,
+	l.*
+FROM sys.dm_tran_locks l
+WHERE l.request_session_id IN (SELECT SPID FROM #spWho2);
+
+
 -- Clean up
 DROP TABLE #spWho2
