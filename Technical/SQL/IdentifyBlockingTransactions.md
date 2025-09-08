@@ -21,13 +21,30 @@ EXEC sp_who2
 
 -- Query only blocking sessions
 delete from #spWho2
-WHERE LTRIM(RTRIM(BlkBy)) = '.'
+WHERE LTRIM(RTRIM(BlkBy)) = '.' AND 
+      SPID NOT IN (
+		select CONVERT(INT, LTRIM(RTRIM(BlkBy)))
+		from #spWho2
+		WHERE LTRIM(RTRIM(BlkBy)) <> '.'
+		)
 
 select * from #spWho2
 
-SELECT * FROM sys.dm_exec_requests 
-WHERE blocking_session_id <> 0 or 
-      session_id in (select BlkBy from #spWho2)
+
+SELECT 
+    r.session_id,
+    r.status,
+    r.command,
+    r.start_time,
+    r.database_id,
+    r.cpu_time,
+    r.total_elapsed_time,
+    t.text AS sql_text,
+    OBJECT_NAME(t.objectid, r.database_id) AS stored_procedure_name, 
+	r.*
+FROM sys.dm_exec_requests r
+CROSS APPLY sys.dm_exec_sql_text(r.sql_handle) AS t
+WHERE r.session_id in (select SPID from #spWho2)
 
 SELECT
     l.request_session_id AS SPID,
@@ -36,7 +53,12 @@ SELECT
     l.resource_associated_entity_id AS ResourceID,
     l.request_mode AS LockMode,
     l.request_status,
-    OBJECT_NAME(l.resource_associated_entity_id) AS LockedObjectName,
+	CASE 
+		WHEN l.resource_associated_entity_id <= 2147483647 THEN 
+			OBJECT_NAME(CAST(l.resource_associated_entity_id AS INT))
+		ELSE 
+			NULL
+	END AS LockedObjectName,
 	l.*
 FROM sys.dm_tran_locks l
 WHERE l.request_session_id IN (SELECT SPID FROM #spWho2);
